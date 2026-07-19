@@ -231,21 +231,6 @@ The stress coverage includes exact 100-room layouts, constrained straight-run li
 | Runtime integration | Blueprint-facing asynchronous floor lifecycle with load, unload, completion, failure, and timeout events |
 | Content flexibility | Weighted authored-room pools plus isolated procedural authoring fallbacks |
 
-## What I would show in an interview
-
-I can walk through:
-
-- The complete designer loop from room recipe to customized streamed level.
-- The boundary between abstract planning and spatial realization.
-- How deterministic inputs are fingerprinted and invalidated.
-- How gate/provider dependencies prevent impossible progression.
-- How authored rooms are selected, rotated, aligned, and connected.
-- How editor previews remain consistent with production generation.
-- How the runtime floor lifecycle avoids blocking the game thread.
-- How the automation suite exercises pathological seeds and large layouts.
-
-The full source remains private because this system is part of an in-development game. A focused code walkthrough can be provided during an interview.
-
 ## Next steps
 
 - Integrate additional production art, lighting, and gameplay content into authored rooms.
