@@ -6,6 +6,10 @@ Dungeon Generator builds dependency-aware, multi-floor layouts from a reproducib
 
 > **Source status:** Private production code. This case study documents the engineering work without distributing the implementation.
 
+## Project context
+
+Dungeon Generator was built for **Lower Management**, a multiplayer cooperative looting game inspired by *Lethal Company*. The system gives the game replayable procedural layouts while preserving hand-authored rooms, encounters, art, and gameplay content.
+
 ![Dungeon Designer overview](media/dungeon-designer-overview.png)
 
 *The custom Dungeon Designer previewing a deep generated floor from seed 1337. Room recipes and depth rules are authored on the left; deterministic layout, routes, openings, geometry dimensions, and production-content controls are visible in the central preview and right control panel.*
@@ -15,6 +19,8 @@ Dungeon Generator builds dependency-aware, multi-floor layouts from a reproducib
 | | |
 |---|---|
 | **Role** | Systems design, C++ implementation, Unreal Editor tooling, procedural-generation architecture |
+| **Game** | Lower Management |
+| **Genre** | Multiplayer cooperative looting game |
 | **Engine** | Unreal Engine 5.8 |
 | **Technology** | C++, Slate, Geometry Script, Blueprint APIs, asynchronous tasks, World Subsystems |
 | **Architecture** | Separate runtime and editor modules |
